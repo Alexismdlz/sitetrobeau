@@ -1,0 +1,53 @@
+@media screen and (prefers-color-scheme: dark) {
+    body{
+        background-color: black;
+        color: #F7F4F0;
+    }
+    header{
+      background-color: rgba(255,255,255,0.1);
+
+    }
+    .contact{
+      background-color: #1a1a1a;
+    }
+    .titleetatcivil{
+      color: rgb(246,126,125)
+    }
+    .liste-1, .Mes-formations article, .story{
+        background-color: rgb(25,25,25);
+        border: solid rgb(120,120,120);
+        border-width: thin;
+    }
+    .liste-1{
+      font-weight: normal;
+      box-shadow: 0px 0px 10px rgb(0,0,0),10px 10px 20px rgb(0,0,0);
+    }
+
+    .progressbar{
+      background-color: rgb(25,25,25);
+      border-color: rgb(120,120,120);
+      filter: drop-shadow(0 0 0px black);
+      box-shadow: inset 0px 0px 5px 5px black;
+    }
+    .progressbar:hover{
+      z-index: 2;
+      transform: scale(1.2);
+      filter: drop-shadow(0 0 20px black);
+    }
+
+    .progressbar div{
+      background: -webkit-linear-gradient(left, #7a0040, #110053);
+    }
+    .Mes-expériences-pro h2{
+      margin-bottom:1em;
+      color:black;
+    }
+    .logiciels, .sum p{
+      background: -webkit-linear-gradient(45deg, #5a00ff, #ad56f4, #ffffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    #myBtn{
+      background-color: rgba(25,25,25, .8);
+    }
+}

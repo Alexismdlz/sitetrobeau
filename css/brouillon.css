@@ -1,0 +1,44 @@
+main{
+  margin-top: 75px;
+}
+
+.gen{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#Mon-état-civil ul{
+  position: relative;
+  z-index: 2;
+  line-height: 3em;
+  margin: 6em;
+}
+#Mon-état-civil #selfie, #selfieblur{
+  margin: 3em;
+  position: absolute;
+  right: 20em;
+  top: -3em;
+  z-index: 3;
+}
+
+.fondabstraitbg{
+  text-align: left;
+  position: absolute;
+  top: -4em;
+}
+.fondabstraitfg{
+  text-align: right;
+  position: absolute;
+  top: 13em;
+}
+#fondabstraitbg{
+  position: absolute;
+  z-index: 1;
+  opacity: 100%;
+}
+
+#fondabstraitfg{
+  position: absolute;
+  z-index: 4;
+  opacity: 100%;
+}

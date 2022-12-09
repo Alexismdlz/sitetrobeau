@@ -1,0 +1,22 @@
+@media print {
+  html{
+    width:60%;
+    height:auto;
+  }
+  body {
+    filter: contrast(1.75);
+  }
+  header{
+    display: none;
+  }
+  table {
+    page-break-inside: avoid;
+  }
+  .boutton{
+    display:none;
+  }
+  footer{
+    opacity: 0%;
+  }
+
+}
